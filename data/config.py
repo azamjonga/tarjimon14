@@ -12,7 +12,8 @@
 import os
 
 # .env fayl ichidan quydagilarni o'qiymiz
-BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))  # bOT TOKEN
 ADMINS = list(os.environ.get("ADMINS"))  # ADMINLAR RO'YXATI
-IP = str(os.environ.get("ip"))  # hosting ip manzili
-PROVIDER_TOKEN = str(os.environ.get("PROVIDER-TOKEN"))
+BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))  # bOT TOKEN
+
+# IP = str(os.environ.get("ip"))  # hosting ip manzili
+# PROVIDER_TOKEN = str(os.environ.get("PROVIDER-TOKEN"))
